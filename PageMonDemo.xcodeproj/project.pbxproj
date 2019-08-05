@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C34E9B522F7FE7000AF1BD7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C34E9B422F7FE7000AF1BD7 /* AppDelegate.m */; };
+		8C34E9B822F7FE7000AF1BD7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C34E9B722F7FE7000AF1BD7 /* ViewController.m */; };
+		8C34E9BB22F7FE7000AF1BD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C34E9B922F7FE7000AF1BD7 /* Main.storyboard */; };
+		8C34E9BD22F7FE7200AF1BD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C34E9BC22F7FE7200AF1BD7 /* Assets.xcassets */; };
+		8C34E9C022F7FE7200AF1BD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C34E9BE22F7FE7200AF1BD7 /* LaunchScreen.storyboard */; };
+		8C34E9C322F7FE7200AF1BD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C34E9C222F7FE7200AF1BD7 /* main.m */; };
+		8C34E9CC22F7FEE500AF1BD7 /* SMCallLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C34E9CB22F7FEE500AF1BD7 /* SMCallLib.m */; };
+		8C34E9CF22F7FEF300AF1BD7 /* SMCallStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C34E9CE22F7FEF300AF1BD7 /* SMCallStack.m */; };
+		8C34E9D222F7FF0500AF1BD7 /* SMLagMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C34E9D122F7FF0500AF1BD7 /* SMLagMonitor.m */; };
+		8C34E9D622F8049700AF1BD7 /* SlowRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C34E9D522F8049700AF1BD7 /* SlowRecord.m */; };
+		8C34E9D922F804A700AF1BD7 /* SlowRecordManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C34E9D822F804A700AF1BD7 /* SlowRecordManager.m */; };
+		8C34E9DE22F8074200AF1BD7 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C34E9DD22F8074200AF1BD7 /* BaseViewController.m */; };
+		8C34E9E222F8075700AF1BD7 /* SlowRecordListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C34E9E022F8075700AF1BD7 /* SlowRecordListViewController.m */; };
+		8C34E9E322F8075700AF1BD7 /* SlowRecordListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C34E9E122F8075700AF1BD7 /* SlowRecordListViewController.xib */; };
+		8C34E9E822F807ED00AF1BD7 /* SlowRecordTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C34E9E622F807ED00AF1BD7 /* SlowRecordTableViewCell.m */; };
+		8C34E9E922F807ED00AF1BD7 /* SlowRecordTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C34E9E722F807ED00AF1BD7 /* SlowRecordTableViewCell.xib */; };
+		8C34E9EC22F8088700AF1BD7 /* JumpVCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C34E9EA22F8088200AF1BD7 /* JumpVCModel.m */; };
+		8C34E9F022F8095000AF1BD7 /* SlowRecordDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C34E9EE22F8095000AF1BD7 /* SlowRecordDetailViewController.m */; };
+		8C34E9F122F8095000AF1BD7 /* SlowRecordDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C34E9EF22F8095000AF1BD7 /* SlowRecordDetailViewController.xib */; };
+		8C34E9F622F80BE700AF1BD7 /* SlowTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C34E9F422F80BE700AF1BD7 /* SlowTestViewController.m */; };
+		8C34E9F722F80BE700AF1BD7 /* SlowTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C34E9F522F80BE700AF1BD7 /* SlowTestViewController.xib */; };
+		8C34E9FB22F8118A00AF1BD7 /* PageLoadRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C34E9FA22F8118A00AF1BD7 /* PageLoadRecord.m */; };
+		8C34E9FE22F8119700AF1BD7 /* PageLoadRecordManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C34E9FD22F8119700AF1BD7 /* PageLoadRecordManager.m */; };
+		8C34EA0322F814A500AF1BD7 /* PageRecordListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C34EA0122F814A500AF1BD7 /* PageRecordListViewController.m */; };
+		8C34EA0422F814A500AF1BD7 /* PageRecordListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C34EA0222F814A500AF1BD7 /* PageRecordListViewController.xib */; };
+		8C34EA0822F8159E00AF1BD7 /* PageRecordTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C34EA0622F8159E00AF1BD7 /* PageRecordTableViewCell.m */; };
+		8C34EA0922F8159E00AF1BD7 /* PageRecordTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C34EA0722F8159E00AF1BD7 /* PageRecordTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8C34E9B022F7FE7000AF1BD7 /* PageMonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PageMonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C34E9B322F7FE7000AF1BD7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8C34E9B422F7FE7000AF1BD7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8C34E9B622F7FE7000AF1BD7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8C34E9B722F7FE7000AF1BD7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8C34E9BA22F7FE7000AF1BD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C34E9BC22F7FE7200AF1BD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C34E9BF22F7FE7200AF1BD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C34E9C122F7FE7200AF1BD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C34E9C222F7FE7200AF1BD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C34E9CA22F7FEE500AF1BD7 /* SMCallLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCallLib.h; sourceTree = "<group>"; };
+		8C34E9CB22F7FEE500AF1BD7 /* SMCallLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCallLib.m; sourceTree = "<group>"; };
+		8C34E9CD22F7FEF300AF1BD7 /* SMCallStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCallStack.h; sourceTree = "<group>"; };
+		8C34E9CE22F7FEF300AF1BD7 /* SMCallStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCallStack.m; sourceTree = "<group>"; };
+		8C34E9D022F7FF0500AF1BD7 /* SMLagMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMLagMonitor.h; sourceTree = "<group>"; };
+		8C34E9D122F7FF0500AF1BD7 /* SMLagMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMLagMonitor.m; sourceTree = "<group>"; };
+		8C34E9D422F8049700AF1BD7 /* SlowRecord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlowRecord.h; sourceTree = "<group>"; };
+		8C34E9D522F8049700AF1BD7 /* SlowRecord.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlowRecord.m; sourceTree = "<group>"; };
+		8C34E9D722F804A700AF1BD7 /* SlowRecordManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlowRecordManager.h; sourceTree = "<group>"; };
+		8C34E9D822F804A700AF1BD7 /* SlowRecordManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlowRecordManager.m; sourceTree = "<group>"; };
+		8C34E9DC22F8074200AF1BD7 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		8C34E9DD22F8074200AF1BD7 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		8C34E9DF22F8075700AF1BD7 /* SlowRecordListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlowRecordListViewController.h; sourceTree = "<group>"; };
+		8C34E9E022F8075700AF1BD7 /* SlowRecordListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlowRecordListViewController.m; sourceTree = "<group>"; };
+		8C34E9E122F8075700AF1BD7 /* SlowRecordListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SlowRecordListViewController.xib; sourceTree = "<group>"; };
+		8C34E9E522F807ED00AF1BD7 /* SlowRecordTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlowRecordTableViewCell.h; sourceTree = "<group>"; };
+		8C34E9E622F807ED00AF1BD7 /* SlowRecordTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlowRecordTableViewCell.m; sourceTree = "<group>"; };
+		8C34E9E722F807ED00AF1BD7 /* SlowRecordTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SlowRecordTableViewCell.xib; sourceTree = "<group>"; };
+		8C34E9EA22F8088200AF1BD7 /* JumpVCModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JumpVCModel.m; sourceTree = "<group>"; };
+		8C34E9EB22F8088300AF1BD7 /* JumpVCModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JumpVCModel.h; sourceTree = "<group>"; };
+		8C34E9ED22F8095000AF1BD7 /* SlowRecordDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlowRecordDetailViewController.h; sourceTree = "<group>"; };
+		8C34E9EE22F8095000AF1BD7 /* SlowRecordDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlowRecordDetailViewController.m; sourceTree = "<group>"; };
+		8C34E9EF22F8095000AF1BD7 /* SlowRecordDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SlowRecordDetailViewController.xib; sourceTree = "<group>"; };
+		8C34E9F322F80BE700AF1BD7 /* SlowTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlowTestViewController.h; sourceTree = "<group>"; };
+		8C34E9F422F80BE700AF1BD7 /* SlowTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlowTestViewController.m; sourceTree = "<group>"; };
+		8C34E9F522F80BE700AF1BD7 /* SlowTestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SlowTestViewController.xib; sourceTree = "<group>"; };
+		8C34E9F922F8118A00AF1BD7 /* PageLoadRecord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageLoadRecord.h; sourceTree = "<group>"; };
+		8C34E9FA22F8118A00AF1BD7 /* PageLoadRecord.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageLoadRecord.m; sourceTree = "<group>"; };
+		8C34E9FC22F8119700AF1BD7 /* PageLoadRecordManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageLoadRecordManager.h; sourceTree = "<group>"; };
+		8C34E9FD22F8119700AF1BD7 /* PageLoadRecordManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageLoadRecordManager.m; sourceTree = "<group>"; };
+		8C34EA0022F814A500AF1BD7 /* PageRecordListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageRecordListViewController.h; sourceTree = "<group>"; };
+		8C34EA0122F814A500AF1BD7 /* PageRecordListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageRecordListViewController.m; sourceTree = "<group>"; };
+		8C34EA0222F814A500AF1BD7 /* PageRecordListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PageRecordListViewController.xib; sourceTree = "<group>"; };
+		8C34EA0522F8159E00AF1BD7 /* PageRecordTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageRecordTableViewCell.h; sourceTree = "<group>"; };
+		8C34EA0622F8159E00AF1BD7 /* PageRecordTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageRecordTableViewCell.m; sourceTree = "<group>"; };
+		8C34EA0722F8159E00AF1BD7 /* PageRecordTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PageRecordTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C34E9AD22F7FE7000AF1BD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C34E9A722F7FE7000AF1BD7 = {
+			isa = PBXGroup;
+			children = (
+				8C34E9B222F7FE7000AF1BD7 /* PageMonDemo */,
+				8C34E9B122F7FE7000AF1BD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C34E9B122F7FE7000AF1BD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C34E9B022F7FE7000AF1BD7 /* PageMonDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C34E9B222F7FE7000AF1BD7 /* PageMonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8C34E9F822F8117000AF1BD7 /* PageLoadRecordManager */,
+				8C34E9D322F8045800AF1BD7 /* SlowRecordManager */,
+				8C34E9C922F7FE9B00AF1BD7 /* SMCall */,
+				8C34E9DB22F8073100AF1BD7 /* Base */,
+				8C34E9DA22F8071D00AF1BD7 /* DemoVC */,
+				8C34E9B322F7FE7000AF1BD7 /* AppDelegate.h */,
+				8C34E9B422F7FE7000AF1BD7 /* AppDelegate.m */,
+				8C34E9B622F7FE7000AF1BD7 /* ViewController.h */,
+				8C34E9B722F7FE7000AF1BD7 /* ViewController.m */,
+				8C34E9EB22F8088300AF1BD7 /* JumpVCModel.h */,
+				8C34E9EA22F8088200AF1BD7 /* JumpVCModel.m */,
+				8C34E9B922F7FE7000AF1BD7 /* Main.storyboard */,
+				8C34E9BC22F7FE7200AF1BD7 /* Assets.xcassets */,
+				8C34E9BE22F7FE7200AF1BD7 /* LaunchScreen.storyboard */,
+				8C34E9C122F7FE7200AF1BD7 /* Info.plist */,
+				8C34E9C222F7FE7200AF1BD7 /* main.m */,
+			);
+			path = PageMonDemo;
+			sourceTree = "<group>";
+		};
+		8C34E9C922F7FE9B00AF1BD7 /* SMCall */ = {
+			isa = PBXGroup;
+			children = (
+				8C34E9CA22F7FEE500AF1BD7 /* SMCallLib.h */,
+				8C34E9CB22F7FEE500AF1BD7 /* SMCallLib.m */,
+				8C34E9CD22F7FEF300AF1BD7 /* SMCallStack.h */,
+				8C34E9CE22F7FEF300AF1BD7 /* SMCallStack.m */,
+				8C34E9D022F7FF0500AF1BD7 /* SMLagMonitor.h */,
+				8C34E9D122F7FF0500AF1BD7 /* SMLagMonitor.m */,
+			);
+			path = SMCall;
+			sourceTree = "<group>";
+		};
+		8C34E9D322F8045800AF1BD7 /* SlowRecordManager */ = {
+			isa = PBXGroup;
+			children = (
+				8C34E9D422F8049700AF1BD7 /* SlowRecord.h */,
+				8C34E9D522F8049700AF1BD7 /* SlowRecord.m */,
+				8C34E9D722F804A700AF1BD7 /* SlowRecordManager.h */,
+				8C34E9D822F804A700AF1BD7 /* SlowRecordManager.m */,
+			);
+			path = SlowRecordManager;
+			sourceTree = "<group>";
+		};
+		8C34E9DA22F8071D00AF1BD7 /* DemoVC */ = {
+			isa = PBXGroup;
+			children = (
+				8C34E9FF22F8148F00AF1BD7 /* PageRecord */,
+				8C34E9F222F80BCF00AF1BD7 /* SlowTest */,
+				8C34E9E422F807CC00AF1BD7 /* SlowRecord */,
+			);
+			path = DemoVC;
+			sourceTree = "<group>";
+		};
+		8C34E9DB22F8073100AF1BD7 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8C34E9DC22F8074200AF1BD7 /* BaseViewController.h */,
+				8C34E9DD22F8074200AF1BD7 /* BaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		8C34E9E422F807CC00AF1BD7 /* SlowRecord */ = {
+			isa = PBXGroup;
+			children = (
+				8C34E9DF22F8075700AF1BD7 /* SlowRecordListViewController.h */,
+				8C34E9E022F8075700AF1BD7 /* SlowRecordListViewController.m */,
+				8C34E9E122F8075700AF1BD7 /* SlowRecordListViewController.xib */,
+				8C34E9ED22F8095000AF1BD7 /* SlowRecordDetailViewController.h */,
+				8C34E9EE22F8095000AF1BD7 /* SlowRecordDetailViewController.m */,
+				8C34E9EF22F8095000AF1BD7 /* SlowRecordDetailViewController.xib */,
+				8C34E9E522F807ED00AF1BD7 /* SlowRecordTableViewCell.h */,
+				8C34E9E622F807ED00AF1BD7 /* SlowRecordTableViewCell.m */,
+				8C34E9E722F807ED00AF1BD7 /* SlowRecordTableViewCell.xib */,
+			);
+			path = SlowRecord;
+			sourceTree = "<group>";
+		};
+		8C34E9F222F80BCF00AF1BD7 /* SlowTest */ = {
+			isa = PBXGroup;
+			children = (
+				8C34E9F322F80BE700AF1BD7 /* SlowTestViewController.h */,
+				8C34E9F422F80BE700AF1BD7 /* SlowTestViewController.m */,
+				8C34E9F522F80BE700AF1BD7 /* SlowTestViewController.xib */,
+			);
+			path = SlowTest;
+			sourceTree = "<group>";
+		};
+		8C34E9F822F8117000AF1BD7 /* PageLoadRecordManager */ = {
+			isa = PBXGroup;
+			children = (
+				8C34E9F922F8118A00AF1BD7 /* PageLoadRecord.h */,
+				8C34E9FA22F8118A00AF1BD7 /* PageLoadRecord.m */,
+				8C34E9FC22F8119700AF1BD7 /* PageLoadRecordManager.h */,
+				8C34E9FD22F8119700AF1BD7 /* PageLoadRecordManager.m */,
+			);
+			path = PageLoadRecordManager;
+			sourceTree = "<group>";
+		};
+		8C34E9FF22F8148F00AF1BD7 /* PageRecord */ = {
+			isa = PBXGroup;
+			children = (
+				8C34EA0022F814A500AF1BD7 /* PageRecordListViewController.h */,
+				8C34EA0122F814A500AF1BD7 /* PageRecordListViewController.m */,
+				8C34EA0222F814A500AF1BD7 /* PageRecordListViewController.xib */,
+				8C34EA0522F8159E00AF1BD7 /* PageRecordTableViewCell.h */,
+				8C34EA0622F8159E00AF1BD7 /* PageRecordTableViewCell.m */,
+				8C34EA0722F8159E00AF1BD7 /* PageRecordTableViewCell.xib */,
+			);
+			path = PageRecord;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C34E9AF22F7FE7000AF1BD7 /* PageMonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C34E9C622F7FE7200AF1BD7 /* Build configuration list for PBXNativeTarget "PageMonDemo" */;
+			buildPhases = (
+				8C34E9AC22F7FE7000AF1BD7 /* Sources */,
+				8C34E9AD22F7FE7000AF1BD7 /* Frameworks */,
+				8C34E9AE22F7FE7000AF1BD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PageMonDemo;
+			productName = PageMonDemo;
+			productReference = 8C34E9B022F7FE7000AF1BD7 /* PageMonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C34E9A822F7FE7000AF1BD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = AL;
+				TargetAttributes = {
+					8C34E9AF22F7FE7000AF1BD7 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 8C34E9AB22F7FE7000AF1BD7 /* Build configuration list for PBXProject "PageMonDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C34E9A722F7FE7000AF1BD7;
+			productRefGroup = 8C34E9B122F7FE7000AF1BD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C34E9AF22F7FE7000AF1BD7 /* PageMonDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C34E9AE22F7FE7000AF1BD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C34EA0422F814A500AF1BD7 /* PageRecordListViewController.xib in Resources */,
+				8C34E9E922F807ED00AF1BD7 /* SlowRecordTableViewCell.xib in Resources */,
+				8C34E9E322F8075700AF1BD7 /* SlowRecordListViewController.xib in Resources */,
+				8C34E9C022F7FE7200AF1BD7 /* LaunchScreen.storyboard in Resources */,
+				8C34E9F122F8095000AF1BD7 /* SlowRecordDetailViewController.xib in Resources */,
+				8C34EA0922F8159E00AF1BD7 /* PageRecordTableViewCell.xib in Resources */,
+				8C34E9BD22F7FE7200AF1BD7 /* Assets.xcassets in Resources */,
+				8C34E9F722F80BE700AF1BD7 /* SlowTestViewController.xib in Resources */,
+				8C34E9BB22F7FE7000AF1BD7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C34E9AC22F7FE7000AF1BD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C34E9B822F7FE7000AF1BD7 /* ViewController.m in Sources */,
+				8C34E9DE22F8074200AF1BD7 /* BaseViewController.m in Sources */,
+				8C34E9E222F8075700AF1BD7 /* SlowRecordListViewController.m in Sources */,
+				8C34E9E822F807ED00AF1BD7 /* SlowRecordTableViewCell.m in Sources */,
+				8C34E9CC22F7FEE500AF1BD7 /* SMCallLib.m in Sources */,
+				8C34EA0822F8159E00AF1BD7 /* PageRecordTableViewCell.m in Sources */,
+				8C34E9D622F8049700AF1BD7 /* SlowRecord.m in Sources */,
+				8C34E9FB22F8118A00AF1BD7 /* PageLoadRecord.m in Sources */,
+				8C34E9F022F8095000AF1BD7 /* SlowRecordDetailViewController.m in Sources */,
+				8C34E9C322F7FE7200AF1BD7 /* main.m in Sources */,
+				8C34E9FE22F8119700AF1BD7 /* PageLoadRecordManager.m in Sources */,
+				8C34E9D222F7FF0500AF1BD7 /* SMLagMonitor.m in Sources */,
+				8C34E9D922F804A700AF1BD7 /* SlowRecordManager.m in Sources */,
+				8C34E9CF22F7FEF300AF1BD7 /* SMCallStack.m in Sources */,
+				8C34E9EC22F8088700AF1BD7 /* JumpVCModel.m in Sources */,
+				8C34E9B522F7FE7000AF1BD7 /* AppDelegate.m in Sources */,
+				8C34EA0322F814A500AF1BD7 /* PageRecordListViewController.m in Sources */,
+				8C34E9F622F80BE700AF1BD7 /* SlowTestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8C34E9B922F7FE7000AF1BD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C34E9BA22F7FE7000AF1BD7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C34E9BE22F7FE7200AF1BD7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C34E9BF22F7FE7200AF1BD7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C34E9C422F7FE7200AF1BD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8C34E9C522F7FE7200AF1BD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C34E9C722F7FE7200AF1BD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PageMonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.al.PageMonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C34E9C822F7FE7200AF1BD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PageMonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.al.PageMonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C34E9AB22F7FE7000AF1BD7 /* Build configuration list for PBXProject "PageMonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C34E9C422F7FE7200AF1BD7 /* Debug */,
+				8C34E9C522F7FE7200AF1BD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C34E9C622F7FE7200AF1BD7 /* Build configuration list for PBXNativeTarget "PageMonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C34E9C722F7FE7200AF1BD7 /* Debug */,
+				8C34E9C822F7FE7200AF1BD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C34E9A822F7FE7000AF1BD7 /* Project object */;
+}
